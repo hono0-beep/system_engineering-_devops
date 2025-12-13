@@ -1,15 +1,8 @@
 #!/usr/bin/env bash
-# This script lists non-hidden items in the current directory, one per line,
-# printing only the part after the first dash (-). If no dash, prints the full name.
+# This script lists files using for loop
 
-for f in *; do
-  # skip if there are no matches (when directory empty, shell may expand to literal '*')
-  [ -e "$f" ] || continue
-  if [[ "$f" == *-* ]]; then
-    # remove everything up to first dash
-    echo "${f#*-}"
-  else
-    echo "$f"
-  fi
+for file in *
+do
+    echo "$file"
 done
 

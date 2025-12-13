@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
-# This script prints messages for numbers 4 and 8
+# Print messages for numbers 4 and 8
 
-if [ "$1" -eq 4 ]; then
+NUM=4
+
+if [ "$NUM" -eq 4 ]; then
     echo "bad luck"
-elif [ "$1" -eq 8 ]; then
+elif [ "$NUM" -eq 8 ]; then
     echo "good luck"
 else
     echo "normal"
 fi
+
 

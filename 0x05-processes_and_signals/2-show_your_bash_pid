@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that shows lines containing "bash"
-# shellcheck disable=SC2009
+# Prints the PID of the current Bash shell
 
-ps -aux | grep bash
 

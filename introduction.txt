@@ -1,4 +1,0 @@
-Brief Introduction About Myself
-
-My name is MUSABYIMANA Honorine . I am learning Git and GitHub through this course.
-I am excited to practice creating repositories, branches, and making commits.

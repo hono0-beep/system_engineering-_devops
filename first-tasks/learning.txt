@@ -1,0 +1,1 @@
+This week I learned the basics of Git and GitHub. I practiced creating repositories, making commits, and pushing changes. I also learned how to create branches and open pull requests. This reflection helps me understand the version control workflow better.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script lists files using for loop
+# List files in current directory
 
 for file in *
 do

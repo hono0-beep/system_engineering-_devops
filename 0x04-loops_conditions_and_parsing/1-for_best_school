@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
-# This script displays "Best School" 10 times using a for loop.
+# This script checks the status of a file called school
 
-for i in {1..10}; do
-  echo "Best School"
-done
+if [ ! -e school ]; then
+    echo "school doesn’t exist"
+elif [ -d school ]; then
+    echo "school exists but it’s a directory"
+elif [ -f school ] && [ ! -s school ]; then
+    echo "school exists but empty"
+elif [ -f school ]; then
+    echo "File exist and is a regular file"
+fi
+
 
 

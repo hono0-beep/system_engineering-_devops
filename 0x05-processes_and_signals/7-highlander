@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
-# A Bash script that prints a message indefinitely and handles SIGTERM
+# This script kills the process named 7-highlander
 
-trap 'echo "I am invincible!!!"' SIGTERM
-
-while true
-do
-    echo "To infinity and beyond"
-    sleep 2
-done
+pid=$(pgrep -f "7-highlander")
+if [ -n "$pid" ]; then
+    kill "$pid"
+fi
 

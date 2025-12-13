@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
-# This script prints Hi if variable equals 9
+# Print Hi if variable NUM equals 9
 
-if [ "$1" -eq 9 ]; then
+NUM=9
+
+if [ "$NUM" -eq 9 ]; then
     echo "Hi"
 fi
+
 
 

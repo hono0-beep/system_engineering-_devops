@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# List files in current directory
-
-for file in *
-do
-    echo "$file"
-done
-
